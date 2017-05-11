@@ -4,6 +4,7 @@
 	}
 	form{
 		width: 700px;
+		margin: 20px auto;
 	}
 	.search{
 		line-height: 50px;
@@ -41,7 +42,6 @@
 	}
 	form{
 		width: 500px;
-		margin: 20px auto;
 	}
 	.wrapper-video{
 		width: 588px;

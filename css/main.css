@@ -18,7 +18,7 @@ body{
 form{
 	position: relative;
 	width: 900px;
-	margin: 30px auto 40px;
+	margin: 30px auto;
 }
 .search{
 	display: block;
@@ -82,8 +82,24 @@ label::after{
 	position: relative;
 	width: 1192px;
 	height: 405px;
-	margin: 0 auto 40px;
+	margin: 0 auto;
 	overflow: hidden;
+}
+.wrapper-video.error{
+	position: relative;
+	width: 400px;
+    height: 100px;
+    line-height: 100px;
+    background-color: darkred;
+    padding: 0 15px;
+    margin-top: 100px;
+    font-size: 24px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 6px;
+    vertical-align: top;
+    box-shadow: 0 0 3px black;
+    text-align: center;
 }
 .list-video{
 	position: absolute;
@@ -186,9 +202,12 @@ label::after{
 .wrapper-pages ul{
 	position: absolute;
 	width: 10000000px;
+	bottom: 0;
 }
 .wrapper-pages li{
+	position: relative;
 	display: inline-block;
+	vertical-align: middle;
 	margin-right: 10px;
 }
 .page{
